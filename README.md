@@ -45,7 +45,7 @@ setbrowserpaneurl "javascript:window.scrollBy(0,100);";
 | マシン名 | ファイル名 |
 |---|---|
 | r9-3950x-X570  | dump_[r9-3950x-X570].txt |
-| r9-3950x-X570 <br>(秀丸を新規インスコ) | dump_new_install_[r9-3950x-X570].txt <br> (上のマシンに秀丸を新規にインストールしたもので、設定などは復元しない状態で) |
+| r9-3950x-X570 <br>(秀丸を新規インスコ) | dump_new_install_[r9-3950x-X570].txt <br> (秀丸を新規にインストールしたもので、設定などは復元しない状態で) |
 | i9-9900ks-B365 | dump_[i9-9900ks-B365].txt |
 | i7-9700-H310 | dump_[i7-9700-H310].txt |
 | WIN-04C2GHFAIT1 | dump_[WIN-04C2GHFAIT1].txt|
