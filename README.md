@@ -51,6 +51,10 @@ setbrowserpaneurl "javascript:window.scrollBy(0,100);";
 上から２番目のものは、秀丸を新規にインストールしたものであるが、まったく同様に再現した。  
 一番下ものものは、WebView2 Runtime をインストールした時に再現した。
 
+# New Edge のバージョンは4台のPCで共通
+
+４台とも110.0.1587.63であり、3/4～3/5の間に更新されている。
+
 # 原因は<font color="red">WebView2Runtimeの「インストールの有無」</font>に大きく関わっている可能性が高い
 
 マシン「WIN-04C2GHFAIT1」のみ状況が異なった。  
