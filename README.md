@@ -67,3 +67,10 @@ https://developer.microsoft.com/ja-jp/microsoft-edge/webview2/
 (少なくとも「冒頭のマクロを実行しただけで即座に異常」といったことにはならず、  
 サイト企画開発サイドが現行の段階で想定していたであろう挙動らしい動作)
 
+# WebView2の有無<span style="color: red;">以外</span>の共通点
+
+100％飛ぶマシンの他の３台の共通点としては、
+- ３台とも Visual Studio 2022の最新が入っていること。飛ばない１台にはVisual Studioがそもそも入っていない
+- ３台ともVisual Studio Codeの最新バージョンが入っていること。飛ばない１台にはVisual Studio Codeがそもそも入っていない
+
+あたりが怪しいかもしれません。
