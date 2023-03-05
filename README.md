@@ -54,8 +54,6 @@ setbrowserpaneurl "javascript:window.scrollBy(0,100);";
 # New Edge のバージョンは4台のPCで共通
 
 ４台とも「Edge v110.0.1587.63」であり、自動的に3/4～3/5の間に更新されている。  
-(New Edgeは設定を変更しない限りは、新バージョンがマイクロソフトからリリースされていれば、  
-「ブラウザを**閉じて終了**した直後」に自動的にアップデートするハズ)
 
 # 原因は<font color="red">WebView2Runtimeの「インストールの有無」</font>に大きく関わっている可能性が高い
 
