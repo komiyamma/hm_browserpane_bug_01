@@ -63,7 +63,7 @@ setbrowserpaneurl "javascript:window.scrollBy(0,100);";
 ```
 Win10 Proの段階で「WebView2ランタイム」を下記リンクからインストールしていた
 ```
-経緯があった、  
+経緯があった。  
 (そして３台いずれもがそのまま Win11 Proへとアップデートされている)  
   
 一方、マシン「WIN-04C2GHFAIT1」は、WinServer 2022であるため、  
