@@ -83,4 +83,4 @@ https://developer.microsoft.com/ja-jp/microsoft-edge/webview2/
 |Visual Studio 2022の最新が入っている|Visual Studioがそもそも入っていない|
 |Visual Studio Codeの最新バージョンが入っている|Visual Studio Codeがそもそも入っていない|
 
-あたりが関節原因の候補かもしれません。
+あたりです。これらのいずれかが関節原因の可能性もあります。
