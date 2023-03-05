@@ -80,12 +80,12 @@ Win10 Proの段階で「WebView2ランタイム」を下記リンクからイン
 一方、マシン「WIN-04C2GHFAIT1」は、  
 アップデートではなく「クリーンインストールでのWindows Server 2022」であるため、  
 ```
-初期段階で「New Edge(Chronium)」が入っているため、「WebView2ランタイム」はマニュアルではインストールしていない
+初期段階で「New Edge(Chronium)」が入っているため、「WebView2ランタイム」はマニュアルではインストールしていなかった
 ```
 という違いがあった。  
 
 **「ブラウザ枠」の依存コンポーネント**が「WebView2 ランタイム」**もしくは**「New Edge(Chronium)」であることを考慮すると、
-このあたりにの差に原因である可能性があると疑い、(※1)  
+このあたりの差が原因である可能性があると疑い、(※1)  
 ###### (※1 ── WebView2関連ライブラリが、「Edgeランタイム」より「WebView2ランタイム」の使用を優先させるという実装なら、「WebView2ランタイム」の有無で挙動が変わってしまう可能性がある)
 
 https://developer.microsoft.com/ja-jp/microsoft-edge/webview2/  
