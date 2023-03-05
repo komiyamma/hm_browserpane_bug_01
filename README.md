@@ -31,7 +31,7 @@ setbrowserpaneurl "javascript:window.scrollBy(0,100);";
 | i9-9900ks-B365 | Windows 11 Pro | 22H2 | 22621.1344 | デフォルトで100％ |
 | i7-9700-H310 | Windows 11 Pro | 22H2 | 22621.1344 | デフォルトで100％ |
 | i7-9700-H310 | Windows 11 Pro | 22H2 | 22621.1344 | デフォルトで100％ |
-| WIN-04C2GHFAIT1 | WinServer 2022 Datacenter | 21H2 | 20348.1547 | デフォルトではなく**WebView2 Runtimeを入れると**100％発生 |
+| WIN-04C2GHFAIT1 | WinServer 2022 Datacenter | 21H2 | 20348.1547 | デフォルトではなく**WebView2 Runtimeを入れると**100％発生<br>同Runtimeをアンインストールすると再現しない |
 
 # 異常状態のダンプ
 
