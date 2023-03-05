@@ -55,11 +55,18 @@ setbrowserpaneurl "javascript:window.scrollBy(0,100);";
 
 マシン「WIN-04C2GHFAIT1」のみ状況が異なった。  
 このマシンのみ**OSが異なる**のみならず、  
-飛んでいた **３台はいずれも「Win10 Proの段階でWebView2コンポーネントを下記リンクからインストールしていた」** 経緯があった、  
+飛んでいた **３台はいずれも**
+```
+Win10 Proの段階でWebView2コンポーネントを下記リンクからインストールしていた
+```
+経緯があった、  
 (そして３台いずれもがそのまま Win11 Proへとアップデートされている)  
-一方、マシン「WIN-04C2GHFAIT1」は、WinServer 2022であるため、**初期段階でNew Edge(Chronium)は入って**いても、  
-**WebView2ランタイムはマニュアルではインストールしていない**という違いがあった。  
-「ブラウザ枠」の依存コンポーネントが「New Edge(Chronium)」もしくは「WebView2」であることを考慮すると  
+一方、マシン「WIN-04C2GHFAIT1」は、WinServer 2022であるため、
+``
+初期段階でNew Edge(Chronium)は入っていても、WebView2ランタイムはマニュアルではインストールしていない
+``
+という違いがあった。  
+「ブラウザ枠」の依存コンポーネントが「New Edge(Chronium)」**もしくは**「WebView2」であることを考慮すると  
 この差は疑うに十分値するため、  
 https://developer.microsoft.com/ja-jp/microsoft-edge/webview2/  
 
