@@ -45,7 +45,9 @@ setbrowserpaneurl "javascript:window.scrollBy(0,100);";
 |dump_[i9-9900ks-B365].txt|
 |dump_[i7-9700-H310].txt|
 |dump_[WIN-04C2GHFAIT1].txt|
-上から２番目のものは、秀丸を新規にインストールしたものであるが、まったく同様に再現した。
+
+上から２番目のものは、秀丸を新規にインストールしたものであるが、まったく同様に再現した。  
+一番下ものものは、WebView2 Runtime をインストールした時に再現した。
 
 # 原因は<span style="color: red;">WebView2Runtimeの「インストールの有無」</span>に大きく関わっている可能性が高い
 
