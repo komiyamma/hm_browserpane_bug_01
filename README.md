@@ -61,13 +61,15 @@ Win10 Proの段階でWebView2コンポーネントを下記リンクからイン
 ```
 経緯があった、  
 (そして３台いずれもがそのまま Win11 Proへとアップデートされている)  
-一方、マシン「WIN-04C2GHFAIT1」は、WinServer 2022であるため、
+一方、マシン「WIN-04C2GHFAIT1」は、WinServer 2022であるため、  
 ``
 初期段階でNew Edge(Chronium)は入っていても、WebView2ランタイムはマニュアルではインストールしていない
 ``
 という違いがあった。  
+
 「ブラウザ枠」の依存コンポーネントが「New Edge(Chronium)」**もしくは**「WebView2」であることを考慮すると  
 この差は疑うに十分値するため、  
+
 https://developer.microsoft.com/ja-jp/microsoft-edge/webview2/  
 
 ![](img/2023-03-05-20-37-55.png)
