@@ -83,8 +83,8 @@ https://developer.microsoft.com/ja-jp/microsoft-edge/webview2/
 |Visual Studio 2022の最新が入っている(v17.5.1)|Visual Studioがそもそも入っていない|
 |Visual Studio Codeの最新バージョンが入っている(v1.76.0)|Visual Studio Codeがそもそも入っていない|
 
-あたりです。  
+あたり。  
 
-VSCodeは比較的閉じた実行環境であるため原因となっている可能性は低そうですが、  
-Visual Studio 2022はかなりシステムに影響する形で幅広くコンポーネントをインストールする傾向があるため、  
-原因になっている可能性は否定できません。
+- VSCodeは比較的閉じた実行環境であるため原因となっている可能性は低そう
+- Visual Studio 2022はかなりシステムに影響する形で幅広くコンポーネントをインストールする傾向があるため、  
+原因になっている可能性は否定できないかも
