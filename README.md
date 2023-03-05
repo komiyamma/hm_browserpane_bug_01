@@ -72,7 +72,7 @@ https://developer.microsoft.com/ja-jp/microsoft-edge/webview2/
 
 今回のターゲットからは漏れているが、**まっさらのWindows10に、秀丸を新規にインストールし、  
 上記 WebView2 Runtime の最新版をインストールすると、  
-同じ状況が再現するのではないかと疑われる**。
+マシン「WIN-04C2GHFAIT1」と似た同じ状況が再現するのではないかと疑われる**。
 
 
 # WebView2の有無<font color="red">以外</font>の共通点
