@@ -60,7 +60,7 @@ https://developer.microsoft.com/ja-jp/microsoft-edge/webview2/
 
 ![](img/2023-03-05-20-37-55.png)
 
-の一番下の左(<font color="red">赤枠</font>)の「ダウンロード」からそのままダウンロードし「MicrosoftEdgeWebview2Setup」を実行し、  
+の一番下の左(**赤枠**)の「ダウンロード」からそのままダウンロードし「MicrosoftEdgeWebview2Setup」を実行し、  
 インストールすると、「WIN-04C2GHFAIT1」のマシンでも100％異常状態が再現する形となった。  
 
 ![](img/2023-03-05-19-36-20.png)
