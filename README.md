@@ -70,7 +70,7 @@ Win10 Proの段階でWebView2コンポーネントを下記リンクからイン
 
 **「ブラウザ枠」の依存コンポーネント**が「WebView2 ランタイム」**もしくは**「New Edge(Chronium)」であることを考慮すると  
 このあたりにの差に原因である可能性があると疑い、(※1)  
-###### (※1 ── WebView2関連ライブラリが、「Edgeランタイム」より「WebView2ランタイム」の使用を優先されるという実装なら、「WebView2ランタイム」の有無で挙動が変わってしまう可能性がある)
+###### (※1 ── WebView2関連ライブラリが、「Edgeランタイム」より「WebView2ランタイム」の使用が優先されるという実装なら、「WebView2ランタイム」の有無で挙動が変わってしまう可能性がある)
 
 https://developer.microsoft.com/ja-jp/microsoft-edge/webview2/  
 
