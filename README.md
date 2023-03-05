@@ -20,7 +20,7 @@ setbrowserpaneurl "javascript:window.scrollBy(0,100);";
 ![](img/2023-03-05-19-13-01.png)
 
 
-# ４台でこの異常状態の再現を試みた
+# 4台のPCでこの異常状態の再現を試みた
 
 対象秀丸 : hm921b2_x64_signed.exe  
 秀丸エディタ32bit版のみならず、**秀丸エディタ64bit版でも同様の状況**が再現すると思われる。  
