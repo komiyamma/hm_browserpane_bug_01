@@ -85,9 +85,13 @@ https://developer.microsoft.com/ja-jp/microsoft-edge/webview2/
 「WIN-04C2GHFAIT1」の秀丸の挙動は元へと戻った**。 (※2)  
  (※2 - 少なくとも「冒頭のマクロを実行しただけで即座に異常」といったことにはならない)
 
-今回のターゲットからは漏れているが、**まっさらのWindows10に、秀丸を新規にインストールし、  
-上記 WebView2 Runtime の最新版をインストールすると、  
-マシン「WIN-04C2GHFAIT1」と似た同じ状況が再現するのではないかと疑われる**。
+今回のターゲットからは漏れているが、OSの基礎バージョンから考慮するに、  
+まっさらのWindows10を最新までWindows Updateした後、  
+- 「New Edge(Chronium)」をインストール
+- 秀丸を新規にインストール
+- 上記 WebView2 Runtime の最新版をインストール
+  
+という手順を踏むと、マシン「WIN-04C2GHFAIT1」と似た同じ状況が再現するのではないかと疑われる。
 
 # WebView2の有無<font color="red">以外</font>の共通点
 
