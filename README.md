@@ -85,5 +85,5 @@ https://developer.microsoft.com/ja-jp/microsoft-edge/webview2/
 
 あたりです。  
 VSCodeは比較的閉じた実行環境であるため可能性は薄いと思っていますが、  
-Visual Studio 2022はかなり幅広いコンポーネントをインストールするため、  
+Visual Studio 2022はかなり幅広くコンポーネントをインストールするため、  
 原因になっている可能性は否定できません。
