@@ -80,8 +80,8 @@ https://developer.microsoft.com/ja-jp/microsoft-edge/webview2/
 100％飛ぶマシンの他の３台の共通点の中で、WebView2コンポーネントが間接的に絡んでいそうなものは、
 |飛ぶ３台の共通点|飛ばない１台の状況|
 |---|---|
-|Visual Studio 2022の最新が入っている|Visual Studioがそもそも入っていない|
-|Visual Studio Codeの最新バージョンが入っている|Visual Studio Codeがそもそも入っていない|
+|Visual Studio 2022の最新が入っている(v17.5.1)|Visual Studioがそもそも入っていない|
+|Visual Studio Codeの最新バージョンが入っている(v1.76.0)|Visual Studio Codeがそもそも入っていない|
 
 あたりです。  
 
