@@ -70,7 +70,7 @@ setbrowserpaneurl "javascript:window.scrollBy(0,100);";
 
 マシン「WIN-04C2GHFAIT1」のみ状況が異なった。  
 このマシンのみ**OSが異なる**のみならず、  
-飛んでいた **３台はいずれも**
+必ずバグる **３台はいずれも**
 ```
 Win10 Proの段階で「WebView2ランタイム」を下記リンクからインストールしていた
 ```
