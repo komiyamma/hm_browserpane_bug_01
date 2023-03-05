@@ -70,7 +70,9 @@ https://developer.microsoft.com/ja-jp/microsoft-edge/webview2/
 # WebView2の有無<span style="color: red;">以外</span>の共通点
 
 100％飛ぶマシンの他の３台の共通点としては、
-- ３台とも Visual Studio 2022の最新が入っていること。飛ばない１台にはVisual Studioがそもそも入っていない
-- ３台ともVisual Studio Codeの最新バージョンが入っていること。飛ばない１台にはVisual Studio Codeがそもそも入っていない
+|飛ぶ３台の共通点|飛ばない１台の状況|
+|---|---|
+|Visual Studio 2022の最新が入っている|Visual Studioがそもそも入っていない|
+|Visual Studio Codeの最新バージョンが入っている|Visual Studio Codeがそもそも入っていない|
 
-あたりが怪しいかもしれません。
+あたりがWebView2と間接的に絡んでいて怪しいかもしれません。
