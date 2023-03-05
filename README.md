@@ -46,9 +46,11 @@ setbrowserpaneurl "javascript:window.scrollBy(0,100);";
 
 # 原因は<span style="color: red;">WebView2Runtimeの「インストールの有無」</span>に大きく関わっている可能性が高い
 
+マシン「WIN-04C2GHFAIT1」のみ状況が異なったので、  
+OS自体異なるが、そもそも「WebView2コンポーネントをこのマシンにはインストールしていない」という差があるため
 https://developer.microsoft.com/ja-jp/microsoft-edge/webview2/
 の一番下の左の「ダウンロード」からそのままダウンロードし「MicrosoftEdgeWebview2Setup」を実行し、  
-インストールすると、「WIN-04C2GHFAIT1」のマシンでも100％再現となった。  
+インストールすると、「WIN-04C2GHFAIT1」のマシンでも100％異常状態が再現する形となった。  
 その後、インストールしたWebView2コンポーネントをアンインストールすると、  
-「WIN-04C2GHFAIT1」の状態は元へと戻った(他のきっかけで異常があるかどうかは未調査)
+「WIN-04C2GHFAIT1」の状態は元へと戻った(少なくとも冒頭のマクロを実行し即座に異常といったことにはならない)
 
