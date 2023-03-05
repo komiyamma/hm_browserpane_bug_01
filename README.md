@@ -70,7 +70,6 @@ Win10 Proの段階でWebView2コンポーネントを下記リンクからイン
 
 **「ブラウザ枠」の依存コンポーネント**が「WebView2 ランタイム」**もしくは**「New Edge(Chronium)」であることを考慮すると  
 この差は疑う(※1)に十分値するため、  
-###### (※1 ── WebView2ランタイムの存在をライブラリが内部で先に判定してるなら、その有無で挙動が変わってしまう可能性がある)
 
 https://developer.microsoft.com/ja-jp/microsoft-edge/webview2/  
 
@@ -89,6 +88,8 @@ https://developer.microsoft.com/ja-jp/microsoft-edge/webview2/
 今回のターゲットからは漏れているが、**まっさらのWindows10に、秀丸を新規にインストールし、  
 上記 WebView2 Runtime の最新版をインストールすると、  
 マシン「WIN-04C2GHFAIT1」と似た同じ状況が再現するのではないかと疑われる**。
+
+###### (※1 ── 「WebView2ランタイム」の存在をライブラリが内部で先に判定してるなら、その有無で挙動が変わってしまう可能性がある)
 
 
 # WebView2の有無<font color="red">以外</font>の共通点
