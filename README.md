@@ -42,13 +42,13 @@ setbrowserpaneurl "javascript:window.scrollBy(0,100);";
 上記４つのマシンでのダンプを５つ提供します。  
 **このリポジトリ自体に以下のファイルが含まれます**。  
 
-|ファイル名|
-|---|
-|dump_[r9-3950x-X570].txt|
-|dump_new_install_[r9-3950x-X570].txt <br> (上のマシンに秀丸を新規にインストールしたもの [設定などは復元しない状態])|
-|dump_[i9-9900ks-B365].txt|
-|dump_[i7-9700-H310].txt|
-|dump_[WIN-04C2GHFAIT1].txt|
+| マシン名 | ファイル名 |
+|---|---|
+| r9-3950x-X570  | dump_[r9-3950x-X570].txt |
+| r9-3950x-X570 <br>(秀丸を新規インストール) | dump_new_install_[r9-3950x-X570].txt <br> (上のマシンに秀丸を新規にインストールしたもので、設定などは復元しない状態で) |
+| i9-9900ks-B365 | dump_[i9-9900ks-B365].txt |
+| i7-9700-H310 | dump_[i7-9700-H310].txt |
+| WIN-04C2GHFAIT1 | dump_[WIN-04C2GHFAIT1].txt|
 
 上から２番目のものは、秀丸を新規にインストールしたものであるが、まったく同様に再現した。  
 一番下ものものは、WebView2 Runtime をインストールした時に再現した。
