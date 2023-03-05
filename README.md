@@ -33,7 +33,7 @@ setbrowserpaneurl "javascript:window.scrollBy(0,100);";
 | r9-3950x-X570  | Windows 11 Pro | 22H2 | 22621.1344 | 実行する度に100％<br>新規に秀丸をインストールでも100％<br>64bit版でも100％ |
 | i9-9900ks-B365 | Windows 11 Pro | 22H2 | 22621.1344 | 実行する度に100％<br>(他の状況は試行せず) |
 | i7-9700-H310 | Windows 11 Pro | 22H2 | 22621.1344 | 実行する度に100％<br>(他の状況は試行せず) |
-| WIN-04C2GHFAIT1 | WinServer 2022 Datacenter | 21H2 | 20348.1547 | 新規に秀丸をインストールし、**WebView2 Runtimeをインストールすることで**実行する度に100％となる。<br>同**Runtimeをアンインストールすると再現しない** |
+| WIN-04C2GHFAIT1 | WinServer 2022 Datacenter | 21H2 | 20348.1547 | 新規に秀丸をインストールした直後は再現せず、<br>しかし、**WebView2 Runtimeをインストールすることで**実行する度に100％となる。<br>さらに、同**Runtimeをアンインストールすると再現しない** |
 
 # 異常状態のダンプ
 
