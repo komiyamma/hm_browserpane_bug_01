@@ -53,15 +53,19 @@ setbrowserpaneurl "javascript:window.scrollBy(0,100);";
 
 # 原因は<font color="red">WebView2Runtimeの「インストールの有無」</font>に大きく関わっている可能性が高い
 
-マシン「WIN-04C2GHFAIT1」のみ状況が異なったので、  
-このマシンのみOSが異なることもあり、ブラウザ枠の依存機能を考慮すると  
-「WebView2コンポーネントをこのマシンにはインストールしていない」という差が疑われるため  
+マシン「WIN-04C2GHFAIT1」のみ状況が異なった。  
+このマシンのみOSが異なるのみならず、  
+飛んでいた３台はいずれも「WebView2コンポーネントを下記リンクからインストールしていた」経緯があった、  
+一方、マシン「WIN-04C2GHFAIT1」は、WinServer 2022であるため、初期段階でNew Edge(Chronium)は入っていても、  
+WebView2ランタイムはマニュアルではインストールしていないという違いがあった。  
+「ブラウザ枠」の依存コンポーネントが「New Edge(Chronium)」もしくは「WebView2」であることを考慮すると  
+この差は疑うに十分値するため、  
 https://developer.microsoft.com/ja-jp/microsoft-edge/webview2/  
 
 ![](img/2023-03-05-20-37-55.png)
 
 の一番下の左(**赤枠**)の「ダウンロード」からそのままダウンロードし「MicrosoftEdgeWebview2Setup」を実行し、  
-インストールすると、「WIN-04C2GHFAIT1」のマシンでも100％異常状態が再現する形となった。  
+インストールすると、「WIN-04C2GHFAIT1」のマシンでも100％同じ異常状態が再現する形となった。  
 
 ![](img/2023-03-05-19-36-20.png)
 
