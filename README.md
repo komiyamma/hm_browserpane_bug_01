@@ -51,7 +51,7 @@ setbrowserpaneurl "javascript:window.scrollBy(0,100);";
 上から２番目のものは、秀丸を新規にインストールしたものであるが、まったく同様に再現した。  
 一番下ものものは、WebView2 Runtime をインストールした時に再現した。
 
-# 原因は<span style="color: red;">WebView2Runtimeの「インストールの有無」</span>に大きく関わっている可能性が高い
+# 原因は<font color="red">WebView2Runtimeの「インストールの有無」</font>に大きく関わっている可能性が高い
 
 マシン「WIN-04C2GHFAIT1」のみ状況が異なったので、  
 このマシンのみOSが異なることもあり、ブラウザ枠の依存機能を考慮すると  
@@ -67,7 +67,7 @@ https://developer.microsoft.com/ja-jp/microsoft-edge/webview2/
 (少なくとも「冒頭のマクロを実行しただけで即座に異常」といったことにはならず、  
 サイト企画開発サイドが現行の段階で想定していたであろう挙動らしい動作)
 
-# WebView2の有無<span style="color: red;">以外</span>の共通点
+# WebView2の有無<font color="red">以外</font>の共通点
 
 100％飛ぶマシンの他の３台の共通点としては、
 |飛ぶ３台の共通点|飛ばない１台の状況|
