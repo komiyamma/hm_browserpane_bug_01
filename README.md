@@ -57,6 +57,9 @@ setbrowserpaneurl "javascript:window.scrollBy(0,100);";
 このマシンのみOSが異なることもあり、ブラウザ枠の依存機能を考慮すると  
 「WebView2コンポーネントをこのマシンにはインストールしていない」という差が疑われるため  
 https://developer.microsoft.com/ja-jp/microsoft-edge/webview2/  
+
+![](img/2023-03-05-20-37-55.png)
+
 の一番下の左の「ダウンロード」からそのままダウンロードし「MicrosoftEdgeWebview2Setup」を実行し、  
 インストールすると、「WIN-04C2GHFAIT1」のマシンでも100％異常状態が再現する形となった。  
 
