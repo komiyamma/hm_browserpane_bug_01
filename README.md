@@ -24,7 +24,7 @@ setbrowserpaneurl "javascript:window.scrollBy(0,100);";
 
 |  対象秀丸  |
 | --- |
-|hm921b2_x64_signed.exe|
+|hm921b2_signed.exe|
 |(秀丸エディタ32bit版のみならず、**秀丸エディタ64bit版でも同様の状況**が再現すると思われる)|
 
 異なるマシンでこの異常状態の再現をトライしたところ、３台は全く同様に再現し、  
